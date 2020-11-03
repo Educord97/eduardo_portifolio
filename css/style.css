@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
 img {
     width: 100%;
     max-width: 100%;
@@ -11,9 +18,9 @@ img {
 }
 
 .space_skills {
-    background-color: coral;
+    background-color: rgba(255, 255, 255, .6);
     padding: 1px;
-    width: 30px;
+    width: 34px;
     display: inline-block;
     margin-bottom: 2px;
     margin-left: 13px;
@@ -105,7 +112,8 @@ img {
 .title-name {
     color: white;
     font-weight: 700;
-    font-size: 6rem;
+    font-size: 4.5rem;
+    text-transform: uppercase;
 }
 
 .subtitle_jumbotron {
@@ -144,7 +152,7 @@ img {
     background-color: #07070B;
     margin-top: -2rem;
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
     
 }
 
@@ -243,6 +251,93 @@ img {
     
 }
 
+/*Skills*/
+
+.skills {
+    background-color: #0E0F13;    
+    padding-top: 8em;
+    padding-bottom: 5rem;
+}
+
+.frame_box {
+    position: relative;
+    transform: translateY(-280%);
+    background-color: #0E0F13;
+}
+
+.frame {
+    border: 8px solid rgba(255, 255, 255, .055);
+    height: 8.5rem;
+    width: 100px;
+    transform: translate(-20%, -60%);
+}
+
+.frame_resume {
+    color: #FA7268;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title_frame {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+.list_skills {
+    list-style-type: none;
+    margin-left: -45px;
+
+}
+
+.list_skills li {
+    line-height: 60px;
+}
+
+.icon_skills_list {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+    padding: 5px 10px;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+.icon_skills_list:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+.title_skills_tool {
+    color: white;
+    margin-top: -1.3rem;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+
+}
+
+.skills_itens h6 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    line-height: 35px;
+
+}
+
+.progress_bottom {
+    margin-bottom: 3rem;
+}
+
 
 
 
@@ -264,6 +359,16 @@ img {
     #img_jq {
         margin: auto;
         width: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .skills {
+        min-height: 1350px;
+        
     }
 
 }
@@ -314,6 +419,18 @@ img {
         margin-bottom: 1rem;
     }
 
+    .list_skills {
+        margin-top: -60px;
+        margin-bottom: 4rem;
+
+    }
+
+    .title_skills_tool_sm {
+        margin-top: 3rem;
+
+    }
+
+    
 
 
 
