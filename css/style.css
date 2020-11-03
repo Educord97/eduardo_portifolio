@@ -35,3 +35,290 @@ img {
     left: 0;
 }
 
+/*Navigation*/
+
+.nav_main {
+    background-color: transparent;
+    
+   
+}
+
+.nav_sob {
+    background-color: rgba(0, 0, 0, .94);
+    height: 100vh;
+    margin-top: -6em;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    transition: all .5s;
+    
+}
+
+.itens_top {
+    transform: translateY(90%);
+}
+
+.itens_top li {
+    line-height: 2.5rem;
+}
+
+.itens_top a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.itens_top a:hover {
+    color: salmon;
+}
+
+.btn_menu {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    padding: 1rem;
+    border: 1px solid beige;  
+    position: relative;
+ 
+   
+}
+
+.jumbotron {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 800px;
+    height: 80vh;
+}
+
+.title_jumbotron {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 7px;
+  
+}
+
+.title-name {
+    color: white;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.subtitle_jumbotron {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent)
+}
+
+.btn_view_link {
+    background-color: #FA7268;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    padding: 13px 1rem;
+    outline: 2px solid rgba(211, 11, 11, 0.3);
+    transition: background .6s;
+
+}
+
+.btn_view_link:hover {
+    background-color:rgb(224, 224, 224);
+    color: #FA7268;
+    
+}
+
+/*Section Hero*/
+
+.hero {
+    background-color: #07070B;
+    margin-top: -2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    
+}
+
+
+#img_jq {
+    width: 400px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cont h4 {
+    color:  #FA7268;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+}
+
+.cont h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.cont p {
+    color: rgba(255, 255, 255, .7);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.social-icons a {
+    text-decoration: none; 
+    margin-right: 15px;
+}
+
+.facebook_icon:hover, .github_icon:hover, .linkedin_icon:hover {
+    background-color:  #FA7268;
+    transition: background .5s;
+}
+
+.facebook_icon {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    padding: 15px 20px;
+}
+
+.github_icon {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    padding: 15px 17px;
+
+}
+
+.linkedin_icon {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    padding: 15px 20px;
+
+}
+
+.link_portifolio a {
+    color: rgba(255, 255, 255, .7);
+    margin-top: 2rem;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.link_portifolio a:hover {
+    color: #FA7268;
+    transition: color .5s;
+}
+
+.portifolio_bottom {
+    padding: 1.2px;
+    display: inline-block;
+    width: 9%;
+    background-color:  #FA7268;
+    
+}
+
+
+
+
+/*Responsive*/
+
+@media screen and (max-width: 750px) {
+
+    .title_jumbotron {
+        font-size: 28px;
+        font-weight: 400;
+      
+    }
+
+    .title-name {
+        font-weight: 700;
+        font-size: 4rem;
+    }
+
+    #img_jq {
+        margin: auto;
+        width: auto;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .jumbotron {
+        width: 100%;
+    }
+
+    .title_jumbotron {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        letter-spacing: 8px;
+      
+    }
+
+    .title-name {
+        font-weight: 700;
+        font-size: 27px;
+        text-transform: uppercase;
+    }
+
+    .subtitle_jumbotron {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 8px;
+        line-height: 30px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .cont h4 {
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 2rem;
+        
+    }
+    
+    .cont h3 {
+        font-size: 27px;
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+
+
+
+
+

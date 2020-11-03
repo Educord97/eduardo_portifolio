@@ -17,20 +17,22 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Eduardo Lima</title>
+
+
 </head>
 
 <body>
 
     <!--Header-->
-    <nav class="navbar navbar-light bg-light d-flex justify-content-end">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar fixed-top d-flex justify-content-end nav_main">
+        <button class="navbar-toggler btn_menu" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" id="btn_jq" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-ellipsis-h" style="color: white;"></i>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse fixed nav_sob" id="navbarNav">
+            <ul class="navbar-nav itens_top" id="ul_jq">
                 <li class="nav-item active d-flex justify-content-center">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="active_jq" href="#">Home <span class="sr-only">(Atual)</span></a>
                 </li>
                 <li class="nav-item d-flex justify-content-center">
                     <a class="nav-link" href="#">Sobre</a>
@@ -48,40 +50,51 @@
         </div>
     </nav>
 
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center d-flex align-items-center rounded-0">
         <div class="container">
-            <div class="text-header ">
-                <h5 class="display-4">Olá</h5>
-                <h1 class="title-name display-4">Eu sou o Eduardo Lima</h1>
-                <h4>Desenvolvedor front-end</h4>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Meus trabalhos</a>
+            <div class="text-header">
+                <h5 class="display-4 title_jumbotron">Hello</h5>
+                <h1 class="title-name display-4">Eu sou o Eduardo</h1>
+                <h4 class="subtitle_jumbotron">Desenvolvedor front-end</h4>
+                <a class="btn btn-primary btn-lg rounded-0 btn_view_link" href="#" role="button">Ver trabalhos</a>
             </div>
         </div>
     </div>
 
+    <!--Section Hero-->
     <section class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="img/bg_edu.jpg" class="hero_img" alt="">
+                <div class="col-md-5 img_box">
+                    <img src="img/bg_edu_dark.jpg" id="img_jq" class="hero_img" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7 cont_section">
                     <div class="cont">
                         <h4>Olá, eu sou </h4>
                         <h3>Eduardo Lima</h3>
                         <span class="space"></span>
-                        <p>taciti sociosqu ad litora torquent per conubia nostra text of the printing and type
-                            er conubia nostra text of the printing and type
-                            er conubia nostra text of the printing and type
-                            er conubia nostra text of the printing and type
+                        <p>Olá, eu sou o Eduardo, tenho 23 anos e atualmente cursando Análise e Desenvolvimento
+                            de Sistemas pela Universidade Estácio de Sá, sempre me interessei por
+                            tecnologia e então me dedico a estudar desenvolvimento front-end, minha maior
+                            motivação é aprender coisas novas e se tornar um estudante e um profissional
+                            melhor a cada dia.
                         </p>
                     </div>
-                    <div class="social-icons fa-2x">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-github"></i>
-                        <i class="fab fa-linkedin-in"></i>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/people/Eduardo-L-Cordeiro/100004573477158">
+                        <i class="fab fa-facebook-f facebook_icon"></i>
+                    </a>
+                    <a href="https://github.com/Educord97">
+                        <i class="fab fa-github github_icon"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/eduardolima97/">
+                        <i class="fab fa-linkedin-in linkedin_icon"></i>
+                    </a>
                     </div>
-                    <a href="http://eduardolima.epizy.com/">Portifólio Wordpress</a>
+                    <div class="link_portifolio">
+                    <a href="http://eduardolima.epizy.com/"><i>Acessar Portifólio Wordpress</i></a>
+                    <span class="portifolio_bottom"></span>
+                </div>
                 </div>
             </div>
         </div>
@@ -540,16 +553,16 @@
                     </li>
                 </ul>
                 <div class="form-container">
-                    <form action="#">
-                        <input type="text" placeholder="Nome">
-                        <input type="text" placeholder="Email">
+                    <form action="#" id="myForm">
+                        <input type="text" name="nome" placeholder="Nome">
+                        <input type="text" name="email" placeholder="Email">
                         <br>
-                        <textarea name="" id="text_area" cols="50" rows="2" style="resize: none;"
+                        <textarea name="mensagem" id="text_area" cols="50" rows="2" style="resize: none;"
                             placeholder="Mensagem"></textarea>
                     </form>
                     <button class="btn-form">Enviar</button>
                 </div>
-           </div>
+            </div>
         </div>
     </section>
 
