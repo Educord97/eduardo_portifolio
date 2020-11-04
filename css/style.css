@@ -245,7 +245,9 @@ img {
 .link_portifolio a:hover {
     color: #FA7268;
     transition: color .5s;
+
 }
+
 
 .portifolio_bottom {
     padding: 1.2px;
@@ -400,7 +402,8 @@ img {
     padding: 20px;
     background-image: url(../img/iconfinder_wordpress_logo_content_management_system_web_website_cms_2701068.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     top: 2rem;
 
@@ -435,10 +438,53 @@ img {
     bottom: 1.5rem;
 }
 
+/*Portifólio*/
+.portifolio {
+    background-color: #0E0F13;
+    padding-top: 8em;
+    padding-bottom: 5rem;
+}
 
+.portifolio_ul {
+    list-style-type: none;
+    margin-left: -45px;
 
+}
 
+.portifolio_ul li {
+    line-height: 40px;
 
+}
+
+.portifolio_ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+    transition: color .2s;
+
+}
+
+.portifolio_ul a:hover {
+    color: salmon;
+    
+}
+
+.image_portifolio {
+    bottom: 20px;
+
+}
+
+.image_portifolio img {
+    border-radius: 8px;
+}
+
+.port_image_bottom {
+    bottom: 0;
+
+}
 
 
 
@@ -449,6 +495,38 @@ img {
 
 
 /*Responsive*/
+
+@media screen and (max-width: 980px) {
+
+    .portifolio_ul {
+        display: flex;
+        margin-bottom: 3rem;
+        margin-left: -25px;
+        margin-top: auto;
+    
+    }
+    
+    .portifolio_ul li {
+        margin-right: 15px;        
+    
+    }
+
+    .image_portifolio {
+        margin-bottom: 2rem;
+
+    }
+
+    .image_caminhar {
+        margin-bottom: 1rem;
+    }
+
+
+    .space_skills {
+        display: none;
+    }
+
+
+}
 
 @media screen and (max-width: 750px) {
 
@@ -520,6 +598,15 @@ img {
         line-height: 30px;
     }
 
+    .frame {
+        transform: translate(-2%, -60%);
+    }
+
+    .skill_title_main {
+        margin-left: 1rem;
+    }
+    
+
     .hero {
         width: 100%;
     }
@@ -572,6 +659,23 @@ img {
         left: -1rem;
         
     }
+
+    .portifolio_ul {
+        margin-left: -2.5rem;
+    }
+
+    .portifolio_ul li {
+        margin-right: 7px;
+    }
+
+    .portifolio_ul a {
+        font-size: 10px;
+    }
+
+
+
+
+
 
 
 
