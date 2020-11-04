@@ -60,6 +60,10 @@ img {
     
 }
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
 .itens_top {
     transform: translateY(90%);
 }
@@ -338,6 +342,109 @@ img {
     margin-bottom: 3rem;
 }
 
+/*Section Services*/
+.services {
+    background-color: #07070B;
+    padding-top: 8em;
+    padding-bottom: 5rem;
+
+}
+
+.frame_box_services {
+    background-color: #07070B;
+}
+
+.services_text {
+    color: rgba(255, 255, 255, .7);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.content_services_wordpress {
+    margin-top: -1.80rem;
+}
+
+.content_services_wordpress h6 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+    position: relative;
+    bottom: .65rem;
+    
+}
+
+.content_services_wordpress p {
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+
+
+}
+
+.content_services_wordpress::before {
+    /*
+    font-family: "Font Awesome 5 Free";
+    color: blue;
+    font-weight: 900;
+    */
+    content: " ";
+    display: inline-block; 
+    padding: 20px;
+    background-image: url(../img/iconfinder_wordpress_logo_content_management_system_web_website_cms_2701068.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 2rem;
+
+}
+
+.content_services_code::before {
+    content: "\f121";
+    font-family: "Font Awesome 5 Free";
+    background-image: none;
+    color: #FA7268;
+    font-weight: 600;
+    font-size: 40px;
+    left: -1rem;
+    top: 3.5rem;
+}
+
+.content_services_version::before {
+    content: "\f126";
+    font-family: "Font Awesome 5 Free";
+    background-image: none;
+    color: #FA7268;
+    font-weight: 600;
+    font-size: 45px;
+    left: -1rem;
+    top: 3.5rem;
+
+}
+
+.services_description {
+    margin-left: 5rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -361,6 +468,12 @@ img {
         width: auto;
     }
 
+    .services_text {
+        margin-top: 0;
+        margin-bottom: 3rem;
+    
+    }
+
 
 }
 
@@ -377,6 +490,10 @@ img {
 
 
 @media screen and (max-width: 500px) {
+
+    .itens_top {
+        transform: translateY(60%);
+    }
 
     .jumbotron {
         width: 100%;
@@ -430,18 +547,33 @@ img {
 
     }
 
-    
-
-
-
-
-
-
-
-    .form-container {
-        
-       
+    .content_services_wordpress {
+        margin-top: auto;
+        margin-bottom: 5rem;
+     
     }
+
+    .content_services_wordpress::before {
+        display: inline; 
+        padding: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 0;
+    
+    }
+
+    .services_description {
+      top: 5rem;
+      margin-left: 0;
+    }
+
+    .content_services_code::before, .content_services_version::before {
+        left: -1rem;
+        
+    }
+
+
 
     .text_area {
         width: 60px;
