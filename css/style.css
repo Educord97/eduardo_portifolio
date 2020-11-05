@@ -2,7 +2,10 @@
     box-sizing: border-box;
 }
 
-
+html {
+        scroll-behavior: smooth;
+      }
+      
 
 
 img {
@@ -134,6 +137,7 @@ img {
 
 .btn_view_link {
     background-color: #FA7268;
+    color: white;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
@@ -146,8 +150,11 @@ img {
 
 .btn_view_link:hover {
     background-color:rgb(224, 224, 224);
-    color: #FA7268;
-    
+    color: #FA7268;    
+}
+
+.btn_view_link:focus {
+   box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
 }
 
 /*Section Hero*/
@@ -468,7 +475,7 @@ img {
 }
 
 .portifolio_ul a:hover {
-    color: salmon;
+    color: #FA7268;
     
 }
 
@@ -486,7 +493,122 @@ img {
 
 }
 
+/*Wordpress*/
+.portifolio_wordpress {
+    background-color: #07070B;
+}
 
+.frame_box_wordpress {
+    background-color: #07070B;
+}
+
+/*Section Choose Portifólio*/
+.choose_portifolio {
+    padding-top: 8em;
+    padding-bottom: 8rem;
+    background-image: url(../img/bg_portifolio_dark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.frame_box_portifolio {
+    background-color: transparent;
+}
+
+.card {
+    width: 17rem;
+    background-color: rgba(0, 0, 0, .7);
+    border: none;
+}
+
+.title_card {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.card-body {
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+
+.btn_portifolio_choose {
+    background-color: #FA7268;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background .6s;
+}
+
+.btn_portifolio_choose:hover {
+    background-color:rgb(224, 224, 224);
+    color: #FA7268;    
+}
+
+.btn_portifolio_choose:focus {
+   box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
+}
+
+/*Contact*/
+.contact {
+    background-color:#07070B;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.list_contact {
+    margin-left: -1rem;
+}
+
+.list_contact li {
+    list-style-type: none;
+    line-height: 30px;
+}
+.title_icon_contact {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.text_contact_list {
+    margin-left: 3rem;
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.text_contact_list_linkedin {
+    display: block;
+    margin-left: 3rem;
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 500;
+    transition: color .2s;
+
+}
+
+.text_contact_list_linkedin:hover {
+    text-decoration: none;
+    color: #FA7268;
+}
+
+.contact_bar_bottom {
+    display: block;
+    margin-top: 5px;
+    width: 20%;
+}
 
 
 
@@ -495,6 +617,24 @@ img {
 
 
 /*Responsive*/
+
+@media screen and (max-width: 1200px) {
+
+    .card {
+        width: auto;
+    }
+
+    .contact_bar_bottom {
+        width: 7%;
+    }
+
+
+
+
+
+}
+
+
 
 @media screen and (max-width: 980px) {
 
@@ -525,6 +665,12 @@ img {
         display: none;
     }
 
+    .card {
+        margin-bottom: 2rem;
+    }
+
+    
+    
 
 }
 
