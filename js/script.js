@@ -23,4 +23,57 @@
             } // End if
           });
 
-*/
+  */
+
+//Portifólio
+
+  $("#img_jq_box").on({
+
+    mouseenter: function(){
+      $(".overlay_img_1").show(450);
+
+    },
+
+    mouseleave: function(){
+      $(".overlay_img_1").hide(450);
+
+    },  
+  })
+
+  $("#img_jq_box_2").mouseenter(function(){
+    $(".overlay_img_2").show(450)
+  })
+  $("#img_jq_box_2").mouseleave(function(){
+      $(".overlay_img_2").hide(450);
+  })
+
+  $("#img_jq_box_3").mouseenter(function(){
+    $(".overlay_img_3").show(450)
+  })
+  $("#img_jq_box_3").mouseleave(function(){
+      $(".overlay_img_3").hide(450);
+  })
+
+  $("#img_jq_box_4").mouseenter(function(){
+    $(".overlay_img_4").show(450)
+  })
+  $("#img_jq_box_4").mouseleave(function(){
+      $(".overlay_img_4").hide(450);
+  })
+
+  $("#img_jq_box_5").mouseenter(function(){
+    $(".overlay_img_5").show(450)
+  })
+  $("#img_jq_box_5").mouseleave(function(){
+      $(".overlay_img_5").hide(450);
+  })
+
+  $("#img_jq_box_6").mouseenter(function(){
+    $(".overlay_img_6").show(450)
+  })
+  $("#img_jq_box_6").mouseleave(function(){
+      $(".overlay_img_6").hide(450);
+  })
+
+
+

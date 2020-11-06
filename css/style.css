@@ -5,7 +5,6 @@
 html {
         scroll-behavior: smooth;
       }
-      
 
 
 img {
@@ -493,6 +492,53 @@ img {
 
 }
 
+.overlay_img_1, .overlay_img_2, .overlay_img_3, .overlay_img_4, .overlay_img_5, .overlay_img_6 {
+    background-color:  #FA7268;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    transform: translate(0%, -100%);
+    padding-top: 2rem;
+    padding-left: 6rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+      
+}
+
+.overlay_img_2 {
+    width: 90%;
+    
+}
+
+.overlay_text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-left: -2rem;
+    width: 100%;
+         
+}
+
+.arrow {
+    font-size: 2rem;
+    color: white;
+    bottom: 10px;
+    position: absolute;
+    right: 20px;
+    transition: all .3s;
+}
+
+.arrow:hover {
+    font-size: 2.5rem;
+    color:rgba(27, 27, 66, .6);
+    transform: rotate(360deg);
+    transition: all .7s;
+
+}
+
 /*Wordpress*/
 .portifolio_wordpress {
     background-color: #07070B;
@@ -757,10 +803,11 @@ textarea {
         width: 100%;
     }
 
-    
+    .overlay_img_1, .overlay_img_2, .overlay_img_3, .overlay_img_4, .overlay_img_5, .overlay_img_6 {
+        width: 96%;
 
-    
-    
+    }
+
 
 }
 
@@ -786,6 +833,10 @@ textarea {
         margin-top: 0;
         margin-bottom: 3rem;
     
+    }
+
+    .overlay_img_1, .overlay_img_2, .overlay_img_3, .overlay_img_4, .overlay_img_5, .overlay_img_6 {
+        width: 93%;
     }
 
     
@@ -910,6 +961,8 @@ textarea {
     .portifolio_ul a {
         font-size: 10px;
     }
+
+    
 
 }
 
