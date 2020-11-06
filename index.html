@@ -455,17 +455,20 @@
                     </li>
                 </ul>
             </div>
-                <div class="form-container">
+                   
+                <div class="form-container col-lg-8">                  
                     <form action="#" id="myForm">
-                        <input type="text" name="nome" placeholder="Nome">
-                        <input type="text" name="email" placeholder="Email">
+                        <div class="row">
+                        <input type="text" name="nome" class="col-12 col-md-5 input_name" placeholder="Nome">
+                        <input type="text" name="email" class="col-12 col-md-5 input_email" placeholder="Email">
                         <br>
-                        <textarea name="mensagem" id="text_area" cols="40" rows="2" style="resize: none;"
+                        <textarea name="mensagem" class="col-lg-11 col-sm-12" id="text_area" cols="40" rows="5" style="resize: none;"
                             placeholder="Mensagem"></textarea>
+                        </div>
                     </form>
-                    <button class="btn-form">Enviar</button>
-                </div>
-            </div>
+                    <button class="btn-form col-12 col-lg-12">Enviar</button>
+                </div> 
+            </div>          
         </div>
     </section>
 
