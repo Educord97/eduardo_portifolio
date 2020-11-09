@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -13,7 +21,9 @@ html {
     z-index: 10;
     width: 100%;
     height: 50%;
-    transform: translate(39%, -10%);
+    -webkit-transform: translate(39%, -10%);
+        -ms-transform: translate(39%, -10%);
+            transform: translate(39%, -10%);
     left: 5rem;
 }
 
@@ -79,6 +89,8 @@ img {
     margin-top: -6em;
     margin-left: -2rem;
     margin-right: -2rem;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
     transition: all .5s;
     
 }
@@ -88,7 +100,9 @@ img {
 }
 
 .itens_top {
-    transform: translateY(90%);
+    -webkit-transform: translateY(90%);
+        -ms-transform: translateY(90%);
+            transform: translateY(90%);
 }
 
 .itens_top li {
@@ -152,6 +166,8 @@ img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-transform: uppercase;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(255, 255, 255, 0.1)), to(transparent));
+    background: -o-linear-gradient(left, transparent, rgba(255, 255, 255, 0.1), transparent);
     background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent)
 }
 
@@ -164,6 +180,8 @@ img {
     border: none;
     padding: 13px 1rem;
     outline: 2px solid rgba(211, 11, 11, 0.3);
+    -webkit-transition: background .6s;
+    -o-transition: background .6s;
     transition: background .6s;
 
 }
@@ -174,7 +192,8 @@ img {
 }
 
 .btn_view_link:focus {
-   box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
+   -webkit-box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
+           box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
 }
 
 /*Section Hero*/
@@ -191,7 +210,8 @@ img {
 #img_jq {
     width: 400px;
     height: 480px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 15px;
 }
 
@@ -228,6 +248,8 @@ img {
 
 .facebook_icon:hover, .github_icon:hover, .linkedin_icon:hover {
     background-color:  #FA7268;
+    -webkit-transition: background .5s;
+    -o-transition: background .5s;
     transition: background .5s;
 }
 
@@ -271,6 +293,8 @@ img {
 
 .link_portifolio a:hover {
     color: #FA7268;
+    -webkit-transition: color .5s;
+    -o-transition: color .5s;
     transition: color .5s;
 
 }
@@ -294,7 +318,9 @@ img {
 
 .frame_box {
     position: relative;
-    transform: translateY(-280%);
+    -webkit-transform: translateY(-280%);
+        -ms-transform: translateY(-280%);
+            transform: translateY(-280%);
     background-color: #0E0F13;
 }
 
@@ -302,7 +328,9 @@ img {
     border: 8px solid rgba(255, 255, 255, .055);
     height: 8.5rem;
     width: 100px;
-    transform: translate(-20%, -60%);
+    -webkit-transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+            transform: translate(-20%, -60%);
 }
 
 .frame_resume {
@@ -338,6 +366,8 @@ img {
     letter-spacing: 3px;
     color: white;
     padding: 5px 10px;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(255, 255, 255, 0.1)), to(transparent));
+    background: -o-linear-gradient(left, transparent, rgba(255, 255, 255, 0.1), transparent);
     background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent);
 }
 
@@ -490,6 +520,8 @@ img {
     font-weight: 700;
     letter-spacing: 3px;
     color: white;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
     transition: color .2s;
 
 }
@@ -518,12 +550,19 @@ img {
     position: absolute;
     width: 90%;
     height: 100%;
-    transform: translate(0%, -100%);
+    -webkit-transform: translate(0%, -100%);
+        -ms-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
     padding-top: 2rem;
     padding-left: 6rem;
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
       
 }
 
@@ -553,13 +592,19 @@ img {
     bottom: 10px;
     position: absolute;
     right: 20px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
 }
 
 .arrow:hover {
     font-size: 2.5rem;
     color:rgba(27, 27, 66, .6);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
     transition: all .7s;
 
 }
@@ -618,6 +663,8 @@ img {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
+    -webkit-transition: background .6s;
+    -o-transition: background .6s;
     transition: background .6s;
 }
 
@@ -627,7 +674,8 @@ img {
 }
 
 .btn_portifolio_choose:focus {
-   box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
+   -webkit-box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
+           box-shadow: 0px 0px 5px 2px rgba(211, 11, 11, 0.3);
 }
 
 /*Contact*/
@@ -666,6 +714,8 @@ img {
     color: rgba(255, 255, 255, .7);
     font-size: 16px;
     font-weight: 500;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
     transition: color .2s;
 
 }
@@ -731,6 +781,8 @@ textarea {
 .btn-form:hover {
     background-color: #FA7268;
     color: white;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
     transition: .3s all;
 }
 
@@ -767,6 +819,8 @@ textarea {
 @media screen and (max-width: 980px) {
 
     .portifolio_ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-bottom: 3rem;
         margin-left: -25px;
@@ -885,7 +939,9 @@ textarea {
 @media screen and (max-width: 500px) {
 
     .itens_top {
-        transform: translateY(60%);
+        -webkit-transform: translateY(60%);
+            -ms-transform: translateY(60%);
+                transform: translateY(60%);
     }
 
     .jumbotron {
@@ -914,7 +970,9 @@ textarea {
     }
 
     .frame {
-        transform: translate(-2%, -60%);
+        -webkit-transform: translate(-2%, -60%);
+            -ms-transform: translate(-2%, -60%);
+                transform: translate(-2%, -60%);
     }
 
     .skill_title_main {
@@ -990,7 +1048,6 @@ textarea {
     
 
 }
-
 
 
 
