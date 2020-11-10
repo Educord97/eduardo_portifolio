@@ -42,10 +42,10 @@ $("#skills_jq_btn_experience").click(function () {
   $(".box_skills_jq_skills, .box_skills_jq_education").css("display", "none");
   $(".box_skills_jq_experience").css("display", "block");
 
-     $("#skills_jq_btn_skill").removeClass("active_link");
-     $("#skills_jq_btn_education").removeClass("active_link");
+  $("#skills_jq_btn_skill").removeClass("active_link");
+  $("#skills_jq_btn_education").removeClass("active_link");
 
-     $("#skills_jq_btn_experience").addClass("active_link");
+  $("#skills_jq_btn_experience").addClass("active_link");
 
 });
 
@@ -53,39 +53,39 @@ $("#skills_jq_btn_education").click(function () {
   $(".box_skills_jq_experience, .box_skills_jq_skills").css("display", "none");
   $(".box_skills_jq_education").css("display", "block");
 
-    $("#skills_jq_btn_skill").removeClass("active_link");
-    $("#skills_jq_btn_experience").removeClass("active_link");
+  $("#skills_jq_btn_skill").removeClass("active_link");
+  $("#skills_jq_btn_experience").removeClass("active_link");
 
-    $("#skills_jq_btn_education").addClass("active_link");
+  $("#skills_jq_btn_education").addClass("active_link");
 
 });
 
 
 
-//Portifólio
+//Portifólio hide / show selected
 
-$("#list_all_just").click(function(){
+$("#list_all_just").click(function () {
   $("#img_jq_box, #img_jq_box_2, #img_jq_box_3, #img_jq_box_4, #img_jq_box_5, #img_jq_box_6")
-  .fadeIn();
+    .fadeIn();
 })
 
-$("#list_html_just").click(function(){
+$("#list_html_just").click(function () {
   $("#img_jq_box, #img_jq_box_2, #img_jq_box_3, #img_jq_box_4, #img_jq_box_5, #img_jq_box_6")
-  .fadeIn();
+    .fadeIn();
   $("#img_jq_box, #img_jq_box_5, #img_jq_box_6").fadeOut();
-  
+
 })
 
-$("#list_bootstrap_just").click(function() {
+$("#list_bootstrap_just").click(function () {
   $("#img_jq_box, #img_jq_box_2, #img_jq_box_3, #img_jq_box_4, #img_jq_box_5, #img_jq_box_6")
-  .fadeIn();
+    .fadeIn();
   $("#img_jq_box_2, #img_jq_box_3, #img_jq_box_4").fadeOut()
 
 });
 
-$("#list_js_jq_just").click(function() {
+$("#list_js_jq_just").click(function () {
   $("#img_jq_box, #img_jq_box_2, #img_jq_box_3, #img_jq_box_4, #img_jq_box_5, #img_jq_box_6")
-  .fadeIn();
+    .fadeIn();
   $("#img_jq_box_2, #img_jq_box_3, #img_jq_box_4, #img_jq_box_6").fadeOut()
 
 });
@@ -98,12 +98,10 @@ $("#list_js_jq_just").click(function() {
 
 
 $("#img_jq_box").on({
-
   mouseenter: function () {
     $(".overlay_img_1").show(450);
 
   },
-
   mouseleave: function () {
     $(".overlay_img_1").hide(450);
 
@@ -116,6 +114,7 @@ $("#img_jq_box_2").mouseenter(function () {
 $("#img_jq_box_2").mouseleave(function () {
   $(".overlay_img_2").hide(450);
 })
+
 
 $("#img_jq_box_3").mouseenter(function () {
   $(".overlay_img_3").show(450)
@@ -147,6 +146,7 @@ $("#img_jq_box_6").mouseleave(function () {
 
 //Box Wordpress
 
+
 $("#img_jq_box_w1").mouseenter(function () {
   $(".img_w_1").show(450)
 })
@@ -168,6 +168,7 @@ $("#img_jq_box_w3").mouseleave(function () {
   $(".img_w_3").hide(450);
 })
 
+
 $("#img_jq_box_w4").mouseenter(function () {
   $(".img_w_4").show(450)
 })
@@ -188,9 +189,6 @@ $("#img_jq_box_w6").mouseenter(function () {
 $("#img_jq_box_w6").mouseleave(function () {
   $(".img_w_6").hide(450);
 })
-
-
-
 
 
 

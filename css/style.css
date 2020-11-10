@@ -367,12 +367,10 @@ img {
 .icon_skills_list:hover {
     text-decoration: none;
     color: white;
-     
 }
 
 .active_link {
     background-color: rgba(0, 0, 0, .7);
-
 }
 
 .title_skills_tool {
@@ -413,7 +411,6 @@ img {
     font-weight: 300;
     line-height: 35px;
 }
-
 
 /*Section Services*/
 
@@ -538,7 +535,6 @@ img {
 
 .image_portifolio {
     bottom: 20px;
-
 }
 
 .active_img {
@@ -556,9 +552,6 @@ img {
 .port_image_bottom {
     bottom: 0;
 }
-
-
-
 
 .overlay_img, .overlay_img_1, .overlay_img_2, .overlay_img_3, .overlay_img_4, .overlay_img_5, .overlay_img_6 {
     background-color: #FA7268;
