@@ -1,9 +1,8 @@
 
-/*  
   // Add smooth scrolling to all links
      $("a").on('click', function(event) {
    
-       // Make sure this.hash has a value before overriding default behavior
+
        if (this.hash !== "") {
          // Prevent default anchor click behavior
          event.preventDefault();
@@ -23,7 +22,6 @@
        } // End if
      });
 
-*/
 
 //Skills selector add / remove class active_link 
 
@@ -62,7 +60,7 @@ $("#skills_jq_btn_education").click(function () {
 
 
 
-//Portifólio hide / show selected
+//Portifólio hide / show selected HTML / CSS...
 
 $("#list_all_just").click(function () {
   $("#img_jq_box, #img_jq_box_2, #img_jq_box_3, #img_jq_box_4, #img_jq_box_5, #img_jq_box_6")
@@ -92,6 +90,32 @@ $("#list_js_jq_just").click(function () {
 
 
 
+
+//Portifólio hide / show selected Wordpress
+
+
+$("#list_elemementor_just").click(function () {
+  $("#img_jq_box_w1, #img_jq_box_w2, #img_jq_box_w3, #img_jq_box_w4, #img_jq_box_w5, #img_jq_box_w6")
+   .fadeIn();
+})
+
+$("#list_woocommerce_just").click(function () {
+  $("#img_jq_box_w1, #img_jq_box_w2, #img_jq_box_w3, #img_jq_box_w4, #img_jq_box_w5, #img_jq_box_w6")
+   .fadeIn();
+   $("#img_jq_box_w1, #img_jq_box_w3,  #img_jq_box_w4, #img_jq_box_w5").fadeOut();
+})
+
+$("#list_ocean_just").click(function () {
+  $("#img_jq_box_w1, #img_jq_box_w2, #img_jq_box_w3, #img_jq_box_w4, #img_jq_box_w5, #img_jq_box_w6")
+   .fadeIn();
+   $("#img_jq_box_w1, #img_jq_box_w3,  #img_jq_box_w4, #img_jq_box_w5").fadeOut();
+
+});
+
+$("#list_themes_just").click(function () {
+  $("#img_jq_box_w1, #img_jq_box_w2, #img_jq_box_w3, #img_jq_box_w4, #img_jq_box_w5, #img_jq_box_w6")
+   .fadeIn();
+})
 
 
 
