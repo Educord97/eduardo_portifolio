@@ -1,2 +1,2 @@
 # eduardo_portifolio
-Meu portifolio pessoal
+[![Background Portifolio Eduardo](/img/bgPortifolio.png)](https://limaeduardo.netlify.app/)
