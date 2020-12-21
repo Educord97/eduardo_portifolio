@@ -1,589 +1,578 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <title>Eduardo Lima</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-    <!--Font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!--Style-->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <!--Header-->
-    <nav class="navbar fixed-top d-flex justify-content-end nav_main">
-        <button class="navbar-toggler btn_menu" type="button" data-toggle="collapse" data-target="#navbarNav"
+   <head>
+      <title>Eduardo Lima</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <!--Font awesome-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+      <!--Google fonts-->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+      <!--Bootstrap-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <!--Style-->
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <!--Header-->
+      <nav class="navbar fixed-top d-flex justify-content-end nav_main">
+         <button class="navbar-toggler btn_menu" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" id="btn_jq" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-ellipsis-h" style="color: white;"></i>
-        </button>
-        <div class="collapse navbar-collapse fixed nav_sob" id="navbarNav">
+         <i class="fas fa-ellipsis-h" style="color: white;"></i>
+         </button>
+         <div class="collapse navbar-collapse fixed nav_sob" id="navbarNav">
             <ul class="navbar-nav itens_top" id="ul_jq">
-                <li class="nav-item active d-flex justify-content-center">
-                    <a class="nav-link" id="active_jq" href="#top">Home <span class="sr-only">(Atual)</span></a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link" href="#about">Sobre</a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link" href="#services_work">Trabalhos</a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link" href="#portifolio">Portifolio</a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                    <a class="nav-link" href="#contact">Contato</a>
-                </li>
+               <li class="nav-item active d-flex justify-content-center">
+                  <a class="nav-link" id="active_jq" href="#top">Home <span class="sr-only">(Atual)</span></a>
+               </li>
+               <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="#about">Sobre</a>
+               </li>
+               <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="#services_work">Trabalhos</a>
+               </li>
+               <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="#portifolio">Portifolio</a>
+               </li>
+               <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="#contact">Contato</a>
+               </li>
             </ul>
-        </div>
-    </nav>
-
-    <div class="jumbotron text-center d-flex align-items-center rounded-0" id="top">
-        <div class="container">
+         </div>
+      </nav>
+      <div class="jumbotron text-center d-flex align-items-center rounded-0" id="top">
+         <div class="container">
             <div class="text-header">
-                <h5 class="display-4 title_jumbotron">Olá.</h5>
-                <h1 class="title-name display-4">Eduardo Lima</h1>
-                <h4 class="subtitle_jumbotron">Desenvolvedor front-end</h4>
-                <a class="btn btn-lg rounded-0 btn_view_link" href="#portifolio" role="button">Ver trabalhos</a>
+               <h5 class="display-4 title_jumbotron">Olá.</h5>
+               <h1 class="title-name display-4">Eduardo Lima</h1>
+               <h4 class="subtitle_jumbotron">Desenvolvedor front-end</h4>
+               <a class="btn btn-lg rounded-0 btn_view_link" href="#portifolio" role="button">Ver trabalhos</a>
             </div>
-        </div>
-    </div>
-
-    <!--Section Hero-->
-    <section class="hero" id="about">
-        <div class="container">
+         </div>
+      </div>
+      <!--Section Hero-->
+      <section class="hero" id="about">
+         <div class="container">
             <div class="row">
-                <div class="col-md-5 img_box">
-                    <img src="img/bg_edu_dark.jpg" id="img_jq" class="hero_img" alt="">
-                </div>
-                <div class="col-md-7 cont_section">
-                    <div class="cont">
-                        <h4>Olá, eu sou </h4>
-                        <h3>Eduardo Lima</h3>
-                        <span class="space"></span>
-                        <p>Olá, eu sou o Eduardo, tenho 23 anos e atualmente cursando Análise e Desenvolvimento
-                            de Sistemas pela Universidade Estácio de Sá, sempre me interessei por
-                            tecnologia e então me dedico a estudar desenvolvimento front-end, minha maior
-                            motivação é aprender coisas novas e se tornar um estudante e um profissional
-                            melhor a cada dia.
-                        </p>
-                    </div>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/people/Eduardo-L-Cordeiro/100004573477158">
-                            <i class="fab fa-facebook-f facebook_icon"></i>
-                        </a>
-                        <a href="https://github.com/Educord97">
-                            <i class="fab fa-github github_icon"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/eduardolima97/">
-                            <i class="fab fa-linkedin-in linkedin_icon"></i>
-                        </a>
-                    </div>
-                    <div class="link_portifolio">
-                        <a href="http://eduardolima.epizy.com/"><i>Acessar Portifólio Wordpress</i></a>
-                        <span class="portifolio_bottom"></span>
-                    </div>
-                </div>
+               <div class="col-md-5 img_box">
+                  <img src="img/bg_edu_dark.jpg" id="img_jq" class="hero_img" alt="">
+               </div>
+               <div class="col-md-7 cont_section">
+                  <div class="cont">
+                     <h4>Olá, eu sou </h4>
+                     <h3>Eduardo Lima</h3>
+                     <span class="space"></span>
+                     <p>Olá, eu sou o Eduardo, tenho 23 anos e atualmente cursando Análise e Desenvolvimento
+                        de Sistemas pela Universidade Estácio de Sá, sempre me interessei por
+                        tecnologia e então me dedico a estudar desenvolvimento front-end, minha maior
+                        motivação é aprender coisas novas e se tornar um estudante e um profissional
+                        melhor a cada dia.
+                     </p>
+                  </div>
+                  <div class="social-icons">
+                     <a href="https://www.facebook.com/people/Eduardo-L-Cordeiro/100004573477158">
+                     <i class="fab fa-facebook-f facebook_icon"></i>
+                     </a>
+                     <a href="https://github.com/Educord97">
+                     <i class="fab fa-github github_icon"></i>
+                     </a>
+                     <a href="https://www.linkedin.com/in/eduardolima97/">
+                     <i class="fab fa-linkedin-in linkedin_icon"></i>
+                     </a>
+                  </div>
+                  <div class="link_portifolio">
+                     <a href="http://eduardolima.epizy.com/"><i>Acessar Portifólio Wordpress</i></a>
+                     <span class="portifolio_bottom"></span>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!--Section Skills-->
-    <section class="skills d-flex align-items-center" id="box_tabs">
-        <div class="container">
+         </div>
+      </section>
+      <!--Section Skills-->
+      <section class="skills d-flex align-items-center" id="box_tabs">
+         <div class="container">
             <div class="row container_skills">
-                <div class="col-md-12 col-lg-4">
-                    <div class="frame"></div>
-                    <div class="skill_title_main">
-                        <div class="frame_box">
-                            <span class="frame_resume">
-                                Resumo de skills
-                            </span>
-                            <h3 class="title_frame">Minhas Skills</h3>
-                        </div>
-                    </div>
-                    <ul class="list_skills">
-                        <li>
-                            <a href="#box_tabs" class="icon_skills_list active_link" id="skills_jq_btn_skill">
-                                <i class="fas fa-pencil-ruler" style="color: #FA7268;"></i><span
-                                    class="space_skills"></span>
-                                Skills
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#box_tabs" class="icon_skills_list" id="skills_jq_btn_experience">
-                                <i class="fas fa-book-open" style="color: #FA7268;"></i><span
-                                    class="space_skills"></span>
-                                Cursos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#box_tabs" class="icon_skills_list" id="skills_jq_btn_education">
-                                <i class="fas fa-university" style="color: #FA7268;"></i><span
-                                    class="space_skills"></span>
-                                Graduação
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12 col-lg-4 box_skills_jq_skills">
-                    <div class="title_skills_tool">
-                        <i class="fas fa-tools" style="color: #FA7268; margin-right: 10px;"></i>
-                        Tools
-                    </div>
-                    <div class="skills_itens">
-                        <h6>Wordpress <span style="float: right; margin-right: 3rem;">85%</span> </h6>
-                        <div class="progress progress_bottom" style="height: 12px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 85%; background-color:#FA7268;"></div>
-                        </div>
-                        <h6>Git <span style="float: right; margin-right: 4rem;">80%</span></h6>
-                        <div class="progress progress_bottom" style="height: 12px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 80%; background-color:#FA7268;"></div>
-                        </div>
-                        <h6>GitHub <span style="float: right; margin-right: 3rem;">85%</span></h6>
-                        <div class="progress progress_bottom" style="height: 12px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 85%; background-color:#FA7268;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4 box_skills_jq_skills">
-                    <div class="title_skills_tool title_skills_tool_sm">
-                        <i class="fas fa-laptop-code" style="color: #FA7268; margin-right: 10px;"></i>
-                        Coding Skills
-                    </div>
-                    <div class="skills_itens">
-                        <h6>HTML / CSS <span style="float: right; margin-right: 3rem;">85%</span></h6>
-                        <div class="progress progress_bottom" style="height: 12px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 85%; background-color:#FA7268;"></div>
-                        </div>
-                        <h6>Bootstrap <span style="float: right; margin-right: 5rem;">75%</span></h6>
-                        <div class="progress progress_bottom" style="height: 12px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 75%; background-color:#FA7268;" heigth="5px"></div>
-                        </div>
-                        <h6>JS / Jquery <span style="float: right; margin-right: 9.5rem;">60%</span></h6>
-                        <div class="progress progress_bottom" style="height: 12px;">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 55%; background-color:#FA7268;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-lg-4 box_skills_jq_experience" style="display: none ;">
-                    <div class="skills_itens" id="tab_3">
-                        <span class="box_description_date">Udemy - 2020</span>
-                        <h6 class="title_text_courses">Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos</h6>
-                    </div>
-                    <div class="skills_itens" id="tab_3">
-                        <span class="box_description_date">Udemy - 2020</span>
-                        <h6 class="title_text_courses">Curso Completo de Bootstrap 4 + jQuery com 6 Projetos reais</h6>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-lg-4 box_skills_jq_experience" style="display: none ;">
-                    <div class="skills_itens" id="tab_3">
-                        <span class="box_description_date">Udemy - 2020</span>
-                        <h6 class="title_text_courses">Crie sites profissionais com Wordpress 2020 - 6 Projetos</h6>
-                    </div>
-                    <div class="skills_itens" id="tab_3">
-                        <span class="box_description_date">Udemy - 2020</span>
-                        <h6 class="title_text_courses">Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)</h6>
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-lg-8 box_skills_jq_education" style="display: none ;">
-                    <div class="skills_itens" id="tab_3">
-                        <span class="box_description_date">2019 - Presente</span>
-                        <h5 style="color: white;">Universidade Estácio de Sá</h5>
-                        <p class="text_box_graduation">Atualmente no terceiro período do curso de Análise e
-                            Desenvolvimento de Sistemas.</p>
-                    </div>
-                </div>
+               <div class="col-md-12 col-lg-4">
+                  <div class="frame"></div>
+                  <div class="skill_title_main">
+                     <div class="frame_box">
+                        <span class="frame_resume">
+                        Resumo de skills
+                        </span>
+                        <h3 class="title_frame">Minhas Skills</h3>
+                     </div>
+                  </div>
+                  <ul class="list_skills">
+                     <li>
+                        <a href="#box_tabs" class="icon_skills_list active_link" id="skills_jq_btn_skill">
+                        <i class="fas fa-pencil-ruler" style="color: #FA7268;"></i><span
+                           class="space_skills"></span>
+                        Skills
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#box_tabs" class="icon_skills_list" id="skills_jq_btn_experience">
+                        <i class="fas fa-book-open" style="color: #FA7268;"></i><span
+                           class="space_skills"></span>
+                        Cursos
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#box_tabs" class="icon_skills_list" id="skills_jq_btn_education">
+                        <i class="fas fa-university" style="color: #FA7268;"></i><span
+                           class="space_skills"></span>
+                        Graduação
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-12 col-lg-4 box_skills_jq_skills">
+                  <div class="title_skills_tool">
+                     <i class="fas fa-tools" style="color: #FA7268; margin-right: 10px;"></i>
+                     Tools
+                  </div>
+                  <div class="skills_itens">
+                     <h6>Wordpress <span style="float: right; margin-right: 3rem;">85%</span> </h6>
+                     <div class="progress progress_bottom" style="height: 12px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                           style="width: 85%; background-color:#FA7268;"></div>
+                     </div>
+                     <h6>Git <span style="float: right; margin-right: 4rem;">80%</span></h6>
+                     <div class="progress progress_bottom" style="height: 12px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                           style="width: 80%; background-color:#FA7268;"></div>
+                     </div>
+                     <h6>GitHub <span style="float: right; margin-right: 3rem;">85%</span></h6>
+                     <div class="progress progress_bottom" style="height: 12px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                           style="width: 85%; background-color:#FA7268;"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 col-lg-4 box_skills_jq_skills">
+                  <div class="title_skills_tool title_skills_tool_sm">
+                     <i class="fas fa-laptop-code" style="color: #FA7268; margin-right: 10px;"></i>
+                     Coding Skills
+                  </div>
+                  <div class="skills_itens">
+                     <h6>HTML / CSS <span style="float: right; margin-right: 3rem;">85%</span></h6>
+                     <div class="progress progress_bottom" style="height: 12px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                           style="width: 85%; background-color:#FA7268;"></div>
+                     </div>
+                     <h6>Bootstrap <span style="float: right; margin-right: 5rem;">75%</span></h6>
+                     <div class="progress progress_bottom" style="height: 12px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                           style="width: 75%; background-color:#FA7268;" heigth="5px"></div>
+                     </div>
+                     <h6>JS / Jquery <span style="float: right; margin-right: 9.5rem;">60%</span></h6>
+                     <div class="progress progress_bottom" style="height: 12px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                           style="width: 55%; background-color:#FA7268;"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-12 col-lg-4 box_skills_jq_experience" style="display: none ;">
+                  <div class="skills_itens" id="tab_3">
+                     <span class="box_description_date">Udemy - 2020</span>
+                     <h6 class="title_text_courses">Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos</h6>
+                  </div>
+                  <div class="skills_itens" id="tab_3">
+                     <span class="box_description_date">Udemy - 2020</span>
+                     <h6 class="title_text_courses">Curso Completo de Bootstrap 4 + jQuery com 6 Projetos reais</h6>
+                  </div>
+               </div>
+               <div class="col-md-12 col-lg-4 box_skills_jq_experience" style="display: none ;">
+                  <div class="skills_itens" id="tab_3">
+                     <span class="box_description_date">Udemy - 2020</span>
+                     <h6 class="title_text_courses">Crie sites profissionais com Wordpress 2020 - 6 Projetos</h6>
+                  </div>
+                  <div class="skills_itens" id="tab_3">
+                     <span class="box_description_date">Udemy - 2020</span>
+                     <h6 class="title_text_courses">Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)</h6>
+                  </div>
+               </div>
+               <div class="col-md-12 col-lg-8 box_skills_jq_education" style="display: none ;">
+                  <div class="skills_itens" id="tab_3">
+                     <span class="box_description_date">2019 - Presente</span>
+                     <h5 style="color: white;">Universidade Estácio de Sá</h5>
+                     <p class="text_box_graduation">Atualmente no terceiro período do curso de Análise e
+                        Desenvolvimento de Sistemas.
+                     </p>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!--Section Services-->
-
-    <section class="services" id="services_work">
-        <div class="container">
+         </div>
+      </section>
+      <!--Section Services-->
+      <section class="services" id="services_work">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-12">
-                    <div class="frame"></div>
-                    <div class="skill_title_main">
-                        <div class="frame_box frame_box_services">
-                            <span class="frame_resume">
-                                O que eu faço?
-                            </span>
-                            <h3 class="title_frame">Serviços</h3>
-                        </div>
-                    </div>
-                    <p class="services_text">Trabalho com desenvolvimento front-end, criando sites em html, css,
-                        javascript,
-                        e também em Wordpress.</p>
-                </div>
-                <div class="col-lg-7 co-md-12">
-                    <div class="content_services_wordpress px-4">
-                        <div class="services_description">
-                            <h6>WordPress</h6>
-                            <p>Desenvolvimento de sites em Wordpress, utilizando plugins como: Elementor,
-                                Woocommerce, e customização de temas.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="content_services_wordpress content_services_code  px-4">
-                        <div class="services_description">
-                            <h6>Codificando</h6>
-                            <p>Desenvolvimento de sites em html, css, javascript, bootstrap, jquery,
-                                visando a melhor experiência do usuário.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="content_services_wordpress content_services_version  px-4">
-                        <div class="services_description">
-                            <h6>Versionamentos</h6>
-                            <p>Utilizando Git e Github para versionamentos de códigos, para manter um código mais seguro
-                                e maior liberdade em fazer alterações.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="col-lg-5 col-md-12">
+                  <div class="frame"></div>
+                  <div class="skill_title_main">
+                     <div class="frame_box frame_box_services">
+                        <span class="frame_resume">
+                        O que eu faço?
+                        </span>
+                        <h3 class="title_frame">Serviços</h3>
+                     </div>
+                  </div>
+                  <p class="services_text">Trabalho com desenvolvimento front-end, criando sites em html, css,
+                     javascript,
+                     e também em Wordpress.
+                  </p>
+               </div>
+               <div class="col-lg-7 co-md-12">
+                  <div class="content_services_wordpress px-4">
+                     <div class="services_description">
+                        <h6>WordPress</h6>
+                        <p>Desenvolvimento de sites em Wordpress, utilizando plugins como: Elementor,
+                           Woocommerce, e customização de temas.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="content_services_wordpress content_services_code  px-4">
+                     <div class="services_description">
+                        <h6>Codificando</h6>
+                        <p>Desenvolvimento de sites em html, css, javascript, bootstrap, jquery,
+                           visando a melhor experiência do usuário.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="content_services_wordpress content_services_version  px-4">
+                     <div class="services_description">
+                        <h6>Versionamentos</h6>
+                        <p>Utilizando Git e Github para versionamentos de códigos, para manter um código mais seguro
+                           e maior liberdade em fazer alterações.
+                        </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!--Portifólio-->
-    <section class="portifolio" id="portifolio">
-        <div class="container">
+         </div>
+      </section>
+      <!--Portifólio-->
+      <section class="portifolio" id="portifolio">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12">
-                    <div class="frame"></div>
-                    <div class="skill_title_main">
-                        <div class="frame_box">
-                            <span class="frame_resume">
-                                Html / Css ...
-                            </span>
-                            <h3 class="title_frame">Portifólio</h3>
+               <div class="col-lg-3 col-md-12">
+                  <div class="frame"></div>
+                  <div class="skill_title_main">
+                     <div class="frame_box">
+                        <span class="frame_resume">
+                        Html / Css ...
+                        </span>
+                        <h3 class="title_frame">Portifólio</h3>
+                     </div>
+                  </div>
+                  <ul class="portifolio_ul">
+                     <li>
+                        <a href="#portifolio" id="list_all_just">Todos</a><span class="space_skills"
+                           style="background-color: salmon;"></span>
+                     </li>
+                     <li>
+                        <a href="#portifolio" id="list_html_just">Html / Css</a>
+                     </li>
+                     <li>
+                        <a href="#portifolio" id="list_bootstrap_just">Bootstrap</a>
+                     </li>
+                     <li>
+                        <a href="#portifolio" id="list_js_jq_just">JS / jQuery </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-lg-9">
+                  <div class="row">
+                     <div class="col-lg-4 image_portifolio" id="img_jq_box">
+                        <img src="img/netflix.jpg" id="image_portifolio_jq" width="100%" height="100%"
+                           alt="Site Netflix clone">
+                        <div class="overlay_img_1" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Netflix Clone</p>
+                           </div>
+                           <a href="https://netflixbyedu.netlify.app/" target="_blank"> <span><i
+                              class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
                         </div>
-                    </div>
-                    <ul class="portifolio_ul">
-                        <li>
-                            <a href="#portifolio" id="list_all_just">Todos</a><span class="space_skills"
-                                style="background-color: salmon;"></span>
-                        </li>
-                        <li>
-                            <a href="#portifolio" id="list_html_just">Html / Css</a>
-                        </li>
-                        <li>
-                            <a href="#portifolio" id="list_bootstrap_just">Bootstrap</a>
-                        </li>
-                        <li>
-                            <a href="#portifolio" id="list_js_jq_just">JS / jQuery </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-9">
-                    <div class="row">
-                        <div class="col-lg-4 image_portifolio" id="img_jq_box">
-                            <img src="img/netflix.jpg" id="image_portifolio_jq" width="100%" height="100%"
-                                alt="Site Netflix clone">
-                            <div class="overlay_img_1" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Netflix Clone</p>
-                                </div><a href="https://netflixbyedu.netlify.app/" target="_blank"> <span><i
-                                            class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio active_img" id="img_jq_box_2">
+                        <img src="img/sydney.jpg" class="image_portifolio_jq" alt="Tema Sydney clone">
+                        <div class="overlay_img overlay_img_2" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Tema Sydney</p>
+                           </div>
+                           <a href="https://sydney-by-edu.netlify.app/" target="_blank"> <span><i
+                              class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
                         </div>
-
-                        <div class="col-lg-4 image_portifolio active_img" id="img_jq_box_2">
-                            <img src="img/sydney.jpg" class="image_portifolio_jq" alt="Tema Sydney clone">
-                            <div class="overlay_img overlay_img_2" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Tema Sydney</p>
-                                </div><a href="https://sydney-by-edu.netlify.app/" target="_blank"> <span><i
-                                            class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio image_caminhar active_img" id="img_jq_box_3">
+                        <img src="img/caminhar.jpg" alt="Site caminhar">
+                        <div class="overlay_img overlay_img_3" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Tema Caminhar</p>
+                           </div>
+                           <a href="https://caminharbyeduardo.netlify.app/" target="_blank"> <span><i
+                              class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
                         </div>
-
-                        <div class="col-lg-4 image_portifolio image_caminhar active_img" id="img_jq_box_3">
-                            <img src="img/caminhar.jpg" alt="Site caminhar">
-                            <div class="overlay_img overlay_img_3" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Tema Caminhar</p>
-                                </div><a href="https://caminharbyeduardo.netlify.app/" target="_blank"> <span><i
-                                            class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio port_image_bottom active_img" id="img_jq_box_4">
+                        <img src="img/computer_mouse.jpg" alt="Site Portifólio Your Web Presence">
+                        <div class="overlay_img overlay_img_4" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Basic Portifólio</p>
+                           </div>
+                           <a href="http://portifolioexemplo.epizy.com/" target="_blank"><span><i
+                              class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
                         </div>
-
-                        <div class="col-lg-4 image_portifolio port_image_bottom active_img" id="img_jq_box_4">
-                            <img src="img/computer_mouse.jpg" alt="Site Portifólio Your Web Presence">
-                            <div class="overlay_img overlay_img_4" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Basic Portifólio</p>
-                                </div><a href="http://portifolioexemplo.epizy.com/" target="_blank"><span><i
-                                            class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio port_image_bottom active_img" id="img_jq_box_5">
+                        <img src="img/apple_computer.jpg" alt="Site Parallax">
+                        <div class="overlay_img overlay_img_5" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Site Parallax</p>
+                           </div>
+                           <a href="#" target="_blank">
+                           <span><i class="far fa-arrow-alt-circle-right arrow"></i></span></a>
                         </div>
-
-                        <div class="col-lg-4 image_portifolio port_image_bottom active_img" id="img_jq_box_5">
-                            <img src="img/apple_computer.jpg" alt="Site Parallax">
-                            <div class="overlay_img overlay_img_5" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Site Parallax</p>
-                                </div><a href="#" target="_blank">
-                                     <span><i class="far fa-arrow-alt-circle-right arrow"></i></span></a>
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio port_image_bottom active_img" id="img_jq_box_6">
+                        <img src="img/theband.jpg" alt="Site The Band clone">
+                        <div class="overlay_img overlay_img_6" style="display: none;">
+                           <div class="overlay_text">
+                              <p>The Band clone</p>
+                           </div>
+                           <a href="https://theband-by-edu.netlify.app/" target="_blank"> <span><i
+                              class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
                         </div>
-
-                        <div class="col-lg-4 image_portifolio port_image_bottom active_img" id="img_jq_box_6">
-                            <img src="img/theband.jpg" alt="Site The Band clone">
-                            <div class="overlay_img overlay_img_6" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>The Band clone</p>
-                                </div><a href="https://theband-by-edu.netlify.app/" target="_blank"> <span><i
-                                            class="far fa-arrow-alt-circle-right arrow"></i></span> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <section class="portifolio portifolio_wordpress" id="portifolio_wp">
-        <div class="container">
+         </div>
+      </section>
+      <section class="portifolio portifolio_wordpress" id="portifolio_wp">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12">
-                    <div class="frame"></div>
-                    <div class="skill_title_main">
-                        <div class="frame_box frame_box_wordpress">
-                            <span class="frame_resume">
-                                Sites Wordpress
-                            </span>
-                            <h3 class="title_frame">Portifólio</h3>
+               <div class="col-lg-3 col-md-12">
+                  <div class="frame"></div>
+                  <div class="skill_title_main">
+                     <div class="frame_box frame_box_wordpress">
+                        <span class="frame_resume">
+                        Sites Wordpress
+                        </span>
+                        <h3 class="title_frame">Portifólio</h3>
+                     </div>
+                  </div>
+                  <ul class="portifolio_ul" id="focus_portifolio_wordpress">
+                     <li>
+                        <a href="#portifolio_wp" id="list_elemementor_just">Elementor</a><span class="space_skills"
+                           style="background-color: salmon;"></span>
+                     </li>
+                     <li>
+                        <a href="#portifolio_wp" id="list_woocommerce_just">Woocomerce</a>
+                     </li>
+                     <li class="d-none d-md-block">
+                        <a href="#portifolio_wp" id="list_ocean_just">OceanWp</a>
+                     </li>
+                     <li>
+                        <a href="#portifolio_wp" id="list_themes_just">Themes</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-lg-9" id="portifolio_wordpress">
+                  <div class="row">
+                     <div class="col-lg-4 image_portifolio" id="img_jq_box_w1">
+                        <img src="img/noticias_cidade.jpg" alt="Site Wordpress Notícias Cidade">
+                        <div class="overlay_img img_w img_w_1" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Portal de Notícias</p>
+                           </div>
+                           <a href="#" target="_blank">
+                           <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
                         </div>
-                    </div>
-                    <ul class="portifolio_ul" id="focus_portifolio_wordpress">
-                        <li>
-                            <a href="#portifolio_wp" id="list_elemementor_just">Elementor</a><span class="space_skills"
-                                style="background-color: salmon;"></span>
-                        </li>
-                        <li>
-                            <a href="#portifolio_wp" id="list_woocommerce_just">Woocomerce</a>
-                        </li>
-                        <li class="d-none d-md-block">
-                            <a href="#portifolio_wp" id="list_ocean_just">OceanWp</a>
-                        </li>
-                        <li>
-                            <a href="#portifolio_wp" id="list_themes_just">Themes</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-9" id="portifolio_wordpress">
-                    <div class="row">
-                        <div class="col-lg-4 image_portifolio" id="img_jq_box_w1">
-                            <img src="img/noticias_cidade.jpg" alt="Site Wordpress Notícias Cidade">
-                            <div class="overlay_img img_w img_w_1" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Portal de Notícias</p>
-                                </div><a href="#" target="_blank">
-                                     <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio" id="img_jq_box_w2">
+                        <img src="img/pepper.jpg" alt="Site Wordpress Loja Virtual">
+                        <div class="overlay_img img_w img_w_2" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Pepper, sua loja virtual</p>
+                           </div>
+                           <a href="http://portifolioedu.epizy.com/" target="_blank"> 
+                           <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                           
                         </div>
-
-                        <div class="col-lg-4 image_portifolio" id="img_jq_box_w2">
-                            <img src="img/pepper.jpg" alt="Site Wordpress Loja Virtual">
-                            <div class="overlay_img img_w img_w_2" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Pepper, sua loja virtual</p>
-                                </div><a href="http://portifolioedu.epizy.com/" target="_blank"> 
-                                    <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                           
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio image_caminhar" id="img_jq_box_w3">
+                        <img src="img/gym_exercice.jpg" alt="Site Wordpress Dez Minutos Exercício">
+                        <div class="overlay_img img_w img_w_3" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Site Dez Minutos Exercício</p>
+                           </div>
+                           <a href="http://exerciciodezminutos.epizy.com/" target="_blank">
+                           <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
                         </div>
-                        <div class="col-lg-4 image_portifolio image_caminhar" id="img_jq_box_w3">
-                            <img src="img/gym_exercice.jpg" alt="Site Wordpress Dez Minutos Exercício">
-                            <div class="overlay_img img_w img_w_3" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Site Dez Minutos Exercício</p>
-                                </div><a href="http://exerciciodezminutos.epizy.com/" target="_blank">
-                                     <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio port_image_bottom" id="img_jq_box_w4">
+                        <img src="img/the_hunter.jpg" alt="Site Wordpress Game TheHunter: Call Of The Wild">
+                        <div class="overlay_img img_w img_w_4" style="display: none;">
+                           <div class="overlay_text">
+                              <p>TheHunter: Call of the Wild</p>
+                           </div>
+                           <a href="http://siteedu.epizy.com/" target="_blank">
+                           <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
                         </div>
-                        <div class="col-lg-4 image_portifolio port_image_bottom" id="img_jq_box_w4">
-                            <img src="img/the_hunter.jpg" alt="Site Wordpress Game TheHunter: Call Of The Wild">
-                            <div class="overlay_img img_w img_w_4" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>TheHunter: Call of the Wild</p>
-                                </div><a href="http://siteedu.epizy.com/" target="_blank">
-                                     <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio port_image_bottom" id="img_jq_box_w5">
+                        <img src="img/background_egg_600.jpg" alt="Site Wordpress Restaurante Paris Bistrô">
+                        <div class="overlay_img img_w img_w_5" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Restaurante Paris Bistrô</p>
+                           </div>
+                           <a href="#" target="_blank">
+                           <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                           
                         </div>
-                        <div class="col-lg-4 image_portifolio port_image_bottom" id="img_jq_box_w5">
-                            <img src="img/background_egg_600.jpg" alt="Site Wordpress Restaurante Paris Bistrô">
-                            <div class="overlay_img img_w img_w_5" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Restaurante Paris Bistrô</p>
-                                </div><a href="#" target="_blank">
-                                     <span><i class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                           
-                            </div>
+                     </div>
+                     <div class="col-lg-4 image_portifolio port_image_bottom" id="img_jq_box_w6">
+                        <img src="img/joystick_controller.jpg" alt="Site Wordpress Wd Store">
+                        <div class="overlay_img img_w img_w_6" style="display: none;">
+                           <div class="overlay_text">
+                              <p>Wd Store games e consoles</p>
+                           </div>
+                           <a href="http://wdstore.epizy.com/" target="_blank">
+                           <span><i  class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
                         </div>
-                        <div class="col-lg-4 image_portifolio port_image_bottom" id="img_jq_box_w6">
-                            <img src="img/joystick_controller.jpg" alt="Site Wordpress Wd Store">
-                            <div class="overlay_img img_w img_w_6" style="display: none;">
-                                <div class="overlay_text">
-                                    <p>Wd Store games e consoles</p>
-                                </div><a href="http://wdstore.epizy.com/" target="_blank">
-                                     <span><i  class="far fa-arrow-alt-circle-right arrow"></i></span> </a>                                          
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!--Section Portifólios choose-->
-    <section class="choose_portifolio">
-        <div class="container">
+         </div>
+      </section>
+      <!--Section Portifólios choose-->
+      <section class="choose_portifolio">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12">
-                    <div class="skill_title_main">
-                        <div class="frame"></div>
-                        <div class="skill_title_main">
-                            <div class="frame_box frame_box_portifolio">
-                                <span class="frame_resume">
-                                    Todos Portifólios
-                                </span>
-                                <h3 class="title_frame">Templates</h3>
-                            </div>
+               <div class="col-lg-3 col-md-12">
+                  <div class="skill_title_main">
+                     <div class="frame"></div>
+                     <div class="skill_title_main">
+                        <div class="frame_box frame_box_portifolio">
+                           <span class="frame_resume">
+                           Todos Portifólios
+                           </span>
+                           <h3 class="title_frame">Templates</h3>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="card rounded-0">
-                        <img src="img/background.jpg" class="card-img-top rounded-0"
-                            alt="Template Dark Portifólio Eduardo">
-                        <div class="card-body">
-                            <p class="title_card">Dark Portifólio</p>
-                            <p class="card-text">Construído com HTML, CSS, Bootstrap, Javascript, jQuery.
-                            </p>
-                            <a href="https://limaeduardo.netlify.app/" target="_blank" class="btn btn_portifolio_choose rounded-0">Acessar</a>                               
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="card rounded-0 pb-1">
-                        <img src="img/computer-3076956_1920.jpg" class="card-img-top rounded-0"
-                            alt="Template Eduardo Wordpress Light">
-                        <div class="card-body">
-                            <p class="title_card">Light Theme</p>
-                            <p class="card-text">Wordpress, com Elementor e o tema Sydney.
-                            </p>
-                            <a href="http://eduardolima.epizy.com/" target="_blank" class="btn btn_portifolio_choose rounded-0">Acessar</a>                                
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12">
-                    <div class="card rounded-0">
-                        <img src="img/computer_your.jpg" class="card-img-top rounded-0"
-                            alt="Template Eduardo html, css Básic" height="">
-                        <div class="card-body">
-                            <p class="title_card">Basic Portifólio</p>
-                            <p class="card-text">Esse simples portifólio feito apenas com
-                                HTML e CSS.
-                            </p>
-                            <a href="http://portifolioexemplo.epizy.com/" target="_blank" class="btn btn_portifolio_choose rounded-0">Acessar</a>                               
-                        </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12">
+                  <div class="card rounded-0">
+                     <img src="img/background.jpg" class="card-img-top rounded-0"
+                        alt="Template Dark Portifólio Eduardo">
+                     <div class="card-body">
+                        <p class="title_card">Dark Portifólio</p>
+                        <p class="card-text">Construído com HTML, CSS, Bootstrap, Javascript, jQuery.
+                        </p>
+                        <a href="https://limaeduardo.netlify.app/" target="_blank" class="btn btn_portifolio_choose rounded-0">Acessar</a>                               
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12">
+                  <div class="card rounded-0 pb-1">
+                     <img src="img/computer-3076956_1920.jpg" class="card-img-top rounded-0"
+                        alt="Template Eduardo Wordpress Light">
+                     <div class="card-body">
+                        <p class="title_card">Light Theme</p>
+                        <p class="card-text">Wordpress, com Elementor e o tema Sydney.
+                        </p>
+                        <a href="http://eduardolima.epizy.com/" target="_blank" class="btn btn_portifolio_choose rounded-0">Acessar</a>                                
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-12">
+                  <div class="card rounded-0">
+                     <img src="img/computer_your.jpg" class="card-img-top rounded-0"
+                        alt="Template Eduardo html, css Básic" height="">
+                     <div class="card-body">
+                        <p class="title_card">Basic Portifólio</p>
+                        <p class="card-text">Esse simples portifólio feito apenas com
+                           HTML e CSS.
+                        </p>
+                        <a href="http://portifolioexemplo.epizy.com/" target="_blank" class="btn btn_portifolio_choose rounded-0">Acessar</a>                               
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!--Contact-->
-    <section class="contact">
-        <div class="container">
+         </div>
+      </section>
+      <!--Contact-->
+      <section class="contact">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="frame"></div>
-                    <div class="skill_title_main">
-                        <div class="frame_box frame_box_wordpress">
-                            <span class="frame_resume">
-                                O que achou?
-                            </span>
-                            <h3 class="title_frame">Contato</h3>
-                        </div>
-                    </div>
-                    <ul class="list_contact">
-                        <li>
-                            <i class="fas fa-phone" style="color: salmon; margin-right: .75rem;"></i> <span
-                                class="title_icon_contact">Phone:</span>
-                            <p class="text_contact_list">41-99203-1812</p>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope" style="color: salmon; margin-right: .75rem;"></i> <span
-                                class="title_icon_contact">Email:</span>
-                            <p class="text_contact_list">eduuhliima97@gmail.com</p>
-                        </li>
-                        <li>
-                            <i class="fab fa-linkedin" style="color: salmon; margin-right: .75rem;"></i> <span
-                                class="title_icon_contact">Linkedin:</span>
-                            <a href="https://www.linkedin.com/in/eduardolima97/" class="text_contact_list_linkedin"
-                                target="_blank">Eduardo Lima
-                                <span class="portifolio_bottom contact_bar_bottom"></span>
-                            </a>
-
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="form-container col-lg-8" id="contact">
-                    <form action="#" id="myForm">
-                        <div class="row">
-                            <input type="text" name="nome" class="col-12 col-md-5 input_name" placeholder="Nome">
-                            <input type="text" name="email" class="col-12 col-md-5 input_email" placeholder="Email">
-                            <br>
-                            <textarea name="mensagem" class="col-lg-11 col-sm-12" id="text_area" cols="40" rows="5" style="resize: none;" placeholder="Mensagem"></textarea>                          
-                        </div>
-                    </form>
-                    <button class="btn-form col-12 col-lg-12 mt-4">Enviar</button>
-                </div>
+               <div class="col-lg-3">
+                  <div class="frame"></div>
+                  <div class="skill_title_main">
+                     <div class="frame_box frame_box_wordpress">
+                        <span class="frame_resume">
+                        O que achou?
+                        </span>
+                        <h3 class="title_frame">Contato</h3>
+                     </div>
+                  </div>
+                  <ul class="list_contact">
+                     <li>
+                        <i class="fas fa-phone" style="color: salmon; margin-right: .75rem;"></i> <span
+                           class="title_icon_contact">Phone:</span>
+                        <p class="text_contact_list">41-99203-1812</p>
+                     </li>
+                     <li>
+                        <i class="fas fa-envelope" style="color: salmon; margin-right: .75rem;"></i> <span
+                           class="title_icon_contact">Email:</span>
+                        <p class="text_contact_list">eduuhliima97@gmail.com</p>
+                     </li>
+                     <li>
+                        <i class="fab fa-linkedin" style="color: salmon; margin-right: .75rem;"></i> <span
+                           class="title_icon_contact">Linkedin:</span>
+                        <a href="https://www.linkedin.com/in/eduardolima97/" class="text_contact_list_linkedin"
+                           target="_blank">Eduardo Lima
+                        <span class="portifolio_bottom contact_bar_bottom"></span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="form-container col-lg-8" id="contact">
+                  <form action="#" id="myForm">
+                     <div class="row">
+                        <input type="text" name="nome" class="col-12 col-md-5 input_name" placeholder="Nome">
+                        <input type="text" name="email" class="col-12 col-md-5 input_email" placeholder="Email">
+                        <br>
+                        <textarea name="mensagem" class="col-lg-11 col-sm-12" id="text_area" cols="40" rows="5" style="resize: none;" placeholder="Mensagem"></textarea>                          
+                     </div>
+                  </form>
+                  <button class="btn-form col-12 col-lg-12 mt-4">Enviar</button>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!--Arquivos Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-        crossorigin="anonymous"></script>
-
-    <!--Arquivos jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!--Javascrip Principal-->
-    <script src="js/script.js"></script>
-</body>
+         </div>
+      </section>
+      <!--Arquivos Bootstrap-->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+         crossorigin="anonymous"></script>
+      <!--Arquivos jQuery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!--Javascrip Principal-->
+      <script src="js/script.js"></script>
+   </body>
 </html>
