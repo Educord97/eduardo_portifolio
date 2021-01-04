@@ -584,6 +584,12 @@ img {
     background-color: rgb(201, 14, 185);
 }
 
+.img_r{
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .overlay_text {
     color: white;
     text-transform: uppercase;
@@ -740,53 +746,52 @@ img {
 .form-container {
     margin-left: 5rem;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    text-align: center;
 }
 
-.input_name, .input_email {
-    padding: 1rem;
-}
-
-.input_name {
-    margin-right: 33px;
-}
-
-.input_email {
-    margin-left: 33px;
-}
-
-.input_name, .input_email, textarea {
-    background-color: transparent;
-    margin-bottom: 1rem;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-}
-
-textarea {
-    margin-top: 2rem;
-}
-
-.input_name, .input_email, textarea:focus {
-    outline: none;
+.form-container h3 {
     color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.form-container p {
+    color: rgba(255, 255, 255, .7);
+    font-size: 18px;
+    font-weight: 300;
+
 }
 
 .btn-form {
     padding: 1rem;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-size: 12px;
+    display: block;
     font-weight: 600;
     letter-spacing: 1px;
     margin-left: -1rem;
-    width: 96%;
+    margin-top: 3rem;
+    width: 46%;
+    background: #FA7268;
+
 }
 
 .btn-form:hover {
-    background-color: #FA7268;
+    background-color: #fa726886;
     color: white;
     -webkit-transition: .3s all;
     -o-transition: .3s all;
     transition: .3s all;
+    text-decoration: none
 }
 
 /*Responsive*/

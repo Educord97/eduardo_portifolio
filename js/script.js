@@ -1,19 +1,14 @@
-// Add smooth scrolling to all links
+// Add smooth scroll
 $("a").on('click', function(event) {
   if (this.hash !== "") {
-  // Prevent default anchor click behavior
   event.preventDefault();
-  // Store hash
   var hash = this.hash;
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
   $('html, body').animate({
   scrollTop: $(hash).offset().top
   }, 800, function(){
-  // Add hash (#) to URL when done scrolling (default click behavior)
   window.location.hash = hash;
   });
-  } // End if
+  } 
   });
   //Skills selector add / remove class active_link 
   $("#skills_jq_btn_skill").click(function () {
@@ -61,7 +56,7 @@ $("a").on('click', function(event) {
   $("#list_elemementor_just").click(function () {
   $("#img_jq_box_w1, #img_jq_box_w2, #img_jq_box_w3, #img_jq_box_w4, #img_jq_box_w5, #img_jq_box_w6")
   .fadeIn();
-  })
+  });
   $("#list_woocommerce_just").click(function () {
   $("#img_jq_box_w1, #img_jq_box_w2, #img_jq_box_w3, #img_jq_box_w4, #img_jq_box_w5, #img_jq_box_w6")
   .fadeIn();
@@ -150,4 +145,66 @@ $("a").on('click', function(event) {
   })
   $("#img_jq_box_w6").mouseleave(function () {
   $(".img_w_6").hide(450);
+  })
+  //Portifólio hide / show selected React JS
+  $("#list_simples_just").click(function () {
+  $("#img_jq_box_r1, #img_jq_box_r2, #img_jq_box_r3, #img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeIn();
+  $("#img_jq_box_r1, #img_jq_box_r2, #img_jq_box_r3, #img_jq_box_r4")
+  .fadeOut();
+  });
+  $("#list_hooks_just").click(function () {
+  $("#img_jq_box_r1, #img_jq_box_r2, #img_jq_box_r3, #img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeIn();
+  $("#img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeOut();
+  });
+  $("#list_firebase_just").click(function () {
+  $("#img_jq_box_r1, #img_jq_box_r2, #img_jq_box_r3, #img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeIn();
+  $("#img_jq_box_r1, #img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeOut();
+  });
+  $("#list_cloud_just").click(function () {
+  $("#img_jq_box_r1, #img_jq_box_r2, #img_jq_box_r3, #img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeIn();
+  $("#img_jq_box_r1,#img_jq_box_r2, #img_jq_box_r4, #img_jq_box_r5, #img_jq_box_r6")
+  .fadeOut();
+  });
+  //Box React
+  $("#img_jq_box_r1").mouseenter(function () {
+  $(".img_r_1").show(450)
+  })
+  $("#img_jq_box_r1").mouseleave(function () {
+  $(".img_r_1").hide(450);
+  })
+  $("#img_jq_box_r2").mouseenter(function () {
+  $(".img_r_2").show(450)
+  })
+  $("#img_jq_box_r2").mouseleave(function () {
+  $(".img_r_2").hide(450);
+  })
+  $("#img_jq_box_r3").mouseenter(function () {
+  $(".img_r_3").show(450)
+  })
+  $("#img_jq_box_r3").mouseleave(function () {
+  $(".img_r_3").hide(450);
+  })
+  $("#img_jq_box_r4").mouseenter(function () {
+  $(".img_r_4").show(450)
+  })
+  $("#img_jq_box_r4").mouseleave(function () {
+  $(".img_r_4").hide(450);
+  })
+  $("#img_jq_box_r5").mouseenter(function () {
+  $(".img_r_5").show(450)
+  })
+  $("#img_jq_box_r5").mouseleave(function () {
+  $(".img_r_5").hide(450);
+  })
+  $("#img_jq_box_r6").mouseenter(function () {
+  $(".img_r_6").show(450)
+  })
+  $("#img_jq_box_r6").mouseleave(function () {
+  $(".img_r_6").hide(450);
   })
