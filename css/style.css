@@ -856,6 +856,9 @@ img {
     .img_w_1, .img_w_2, .img_w_3, .img_w_4, .img_w_5, .img_w_6 {
         width: 96%;
     }
+    .img_r_1, .img_r_2, .img_r_3, .img_r_4, .img_r_5, .img_r_6 {
+        width: 96%;
+    }
     .overlay_text p {
         text-align: center;
         position: relative;
@@ -974,6 +977,9 @@ img {
         font-size: 10px;
     }
     .img_w_1, .img_w_2, .img_w_3, .img_w_4, .img_w_5, .img_w_6 {
+        width: 93.5%;
+    }
+    .img_r_1, .img_r_2, .img_r_3, .img_r_4, .img_r_5, .img_r_6 {
         width: 93.5%;
     }
 }
