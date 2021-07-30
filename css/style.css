@@ -476,7 +476,7 @@ img {
 }
 
 .content_services_code::before {
-    content: "\f121";
+    content: "\f0b1";
     font-family: "Font Awesome 5 Free";
     background-image: none;
     color: #FA7268;
